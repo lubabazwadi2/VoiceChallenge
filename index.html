@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Voice Appointment Scheduler</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>🎤 Voice Appointment Scheduler</h1>
+
+			<div class="setup-notice">
+				<strong>Setup Required:</strong><br />
+				1. Click microphone button<br />
+				2. "Schedule appointment with Eng. Lubaba tomorrow at 2 PM"<br />
+				3. AssemblyAI transcribes in real-time<br />
+				4. System identifies name (Eng. Lubaba) and time (tomorrow PM)<br />
+				5. Voice response + visual confirmation<br />
+				6. Appointment added to schedule<br />
+			</div>
+
+			<div class="status" id="status">Ready to schedule appointments</div>
+
+			<button class="mic-button" id="micButton" onclick="toggleListening()">
+				🎤
+			</button>
+
+			<div class="transcript">
+				<strong>Last heard:</strong>
+				<div id="transcript">Click the microphone to start speaking...</div>
+			</div>
+
+			<div class="appointments">
+				<strong>📅 Scheduled Appointments:</strong>
+				<div id="appointments">
+					<div class="appointment-item">Demo: Dr. Nidal - Tomorrow 3:00 PM</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
