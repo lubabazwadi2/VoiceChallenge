@@ -105,8 +105,9 @@ await assemblyAI.startStreaming();
 
 ## 📝 Notes
 
-This is a minimal viable product designed for the 1-hour challenge timeframe. The core functionality demonstrates AssemblyAI's Universal-Streaming capabilities in a practical business automation context.
+This is a minimal viable product designed for the 24-hours challenge timeframe. The core functionality demonstrates AssemblyAI's Universal-Streaming capabilities in a practical business automation context.
 
 ## 🚀 Live Demo
+https://github.com/lubabazwadi2/VoiceChallenge.git
 
 ---
